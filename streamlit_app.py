@@ -102,7 +102,7 @@ def preparar_datos_modelo(df):
     # Selección de columnas relevantes
     columns_to_keep = [
         'HIJOS', 'GENERO', 'Fuente de Reclutamiento', 'Tipo de Contacto',
-        'ESCOLARIDAD_Numerica', 'EDAD', 'CVR_cluster'
+        'ESCOLARIDAD_Numerica', 'EDAD', 'CVR_cluster','SECTOR','LIDER'
     ]
     df = df[columns_to_keep]
 
